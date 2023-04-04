@@ -36,12 +36,9 @@ function Home() {
                     distracted by the readable content of a page when looking at
                     its layout. The point of using Lorem Ipsum.
                   </p>
-                  <a
-                    href='#'
-                    className='mt-10 px-6 py-4 rounded-3xl bg-yellow-300 hover:bg-yellow-400 cursor-pointer'
-                  >
+                  <button className='mt-10 px-6 py-4 rounded-3xl bg-yellow-300 hover:bg-yellow-400 cursor-pointer'>
                     Appointment
-                  </a>
+                  </button>
                 </div>
                 <div className='h-96 py-8'>
                   <h5 className='text-xl md:text-2xl lg:text-3xl text-yellow-300'>
@@ -55,12 +52,9 @@ function Home() {
                     distracted by the readable content of a page when looking at
                     its layout. The point of using Lorem Ipsum.
                   </p>
-                  <a
-                    href='#'
-                    className='mt-10 px-6 py-4 rounded-3xl bg-yellow-300 hover:bg-yellow-400 cursor-pointer'
-                  >
+                  <button className='mt-10 px-6 py-4 rounded-3xl bg-yellow-300 hover:bg-yellow-400 cursor-pointer'>
                     Appointment
-                  </a>
+                  </button>
                 </div>
               </Carousel>
             </div>
@@ -138,12 +132,9 @@ function Home() {
                 omnis iste natus error sit voluptatem accusantium doloremque
                 laudantium.
               </p>
-              <a
-                href='#'
-                className='px-6 py-4 rounded-3xl bg-yellow-300 hover:bg-yellow-400 cursor-pointer'
-              >
+              <button className='px-6 py-4 rounded-3xl bg-yellow-300 hover:bg-yellow-400 cursor-pointer'>
                 Read More
-              </a>
+              </button>
             </div>
           </div>
         </section>
