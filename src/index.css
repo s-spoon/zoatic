@@ -12,6 +12,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 400;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -38,13 +43,13 @@ html {
 
 ::-webkit-scrollbar-thumb {
     /* Handle */
-    background: rgb(126, 250, 49);
+    background: #e4ca41;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
     /* Handle on hover */
-    background: rgb(104, 206, 40);
+    background: #c1a92f;
 }
 
 ::-webkit-scrollbar-track-piece {

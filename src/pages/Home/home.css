@@ -1,0 +1,19 @@
+.main {
+	background-image: url('../../assets/imgs/home1.jpg');
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: center center;
+}
+
+.rotate {
+	animation: rotate-image 12s linear infinite;
+  }
+  
+  @keyframes rotate-image {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
+  }
