@@ -1,0 +1,60 @@
+/* tailwindCss */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+	/* own scrollbar */
+html {
+    /* scrollbar firefox */
+    scrollbar-color: rgb(1, 1, 1) rgb(110, 110, 110);
+}
+
+/* Note: The -webkit-scrollbar is not supported by Firefox or IE and Edge. */
+
+::-webkit-scrollbar {
+    /* width */
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    /* Track */
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    /* Handle */
+    background: rgb(126, 250, 49);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    /* Handle on hover */
+    background: rgb(104, 206, 40);
+}
+
+::-webkit-scrollbar-track-piece {
+    /* not handle on */
+    background: rgb(1, 1, 1);
+}
+
+body {
+  background-color: rgb(20,20,20);
+}
+p, h1 {
+  color: rgb(245,245,245);
+}
