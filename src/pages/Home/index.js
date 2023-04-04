@@ -15,7 +15,7 @@ function Home() {
           <div className='grid grid-cols-1 md:grid-cols-5 gap-4'>
             <div className='md:col-span-3'>
               <Carousel>
-                <div className='h-96 py-8'>
+                <div className='min-h-96 py-8'>
                   <h5
                     data-aos='fade-right'
                     className='text-xl md:text-2xl lg:text-3xl text-yellow-300'
@@ -24,7 +24,7 @@ function Home() {
                   </h5>
                   <h1
                     data-aos='fade-left'
-                    className='text-6xl leading-tight font-bold'
+                    className='text-3xl md:text-4xl lg:text-6xl leading-tight font-bold'
                   >
                     Start control of your <br /> professional destiny
                   </h1>
@@ -40,11 +40,11 @@ function Home() {
                     Appointment
                   </button>
                 </div>
-                <div className='h-96 py-8'>
+                <div className='min-h-96 py-8'>
                   <h5 className='text-xl md:text-2xl lg:text-3xl text-yellow-300'>
                     What is your sign?
                   </h5>
-                  <h1 className='text-6xl leading-tight font-bold'>
+                  <h1 className='text-3xl md:text-4xl lg:text-6xl leading-tight font-bold'>
                     Read your daily <br /> Horoscope Today
                   </h1>
                   <p className='pb-10 pt-4 leading-6 text-base'>
