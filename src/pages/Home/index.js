@@ -16,18 +16,30 @@ function Home() {
             <div className='md:col-span-3'>
               <Carousel>
                 <div className='h-96 py-8'>
-                  <h5 data-aos='fade-right' className='text-xl md:text-2xl lg:text-3xl text-yellow-300'>
+                  <h5
+                    data-aos='fade-right'
+                    className='text-xl md:text-2xl lg:text-3xl text-yellow-300'
+                  >
                     Trust our experience
                   </h5>
-                  <h1 data-aos='fade-left' className='text-6xl leading-tight font-bold'>
+                  <h1
+                    data-aos='fade-left'
+                    className='text-6xl leading-tight font-bold'
+                  >
                     Start control of your <br /> professional destiny
                   </h1>
-                  <p data-aos='zoom-in' className='pb-10 pt-4 leading-6 text-base'>
+                  <p
+                    data-aos='zoom-in'
+                    className='pb-10 pt-4 leading-6 text-base'
+                  >
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at
                     its layout. The point of using Lorem Ipsum.
                   </p>
-                  <a className='mt-10 px-6 py-4 rounded-3xl bg-yellow-300 hover:bg-yellow-400 cursor-pointer'>
+                  <a
+                    href='#'
+                    className='mt-10 px-6 py-4 rounded-3xl bg-yellow-300 hover:bg-yellow-400 cursor-pointer'
+                  >
                     Appointment
                   </a>
                 </div>
@@ -43,7 +55,10 @@ function Home() {
                     distracted by the readable content of a page when looking at
                     its layout. The point of using Lorem Ipsum.
                   </p>
-                  <a className='mt-10 px-6 py-4 rounded-3xl bg-yellow-300 hover:bg-yellow-400 cursor-pointer'>
+                  <a
+                    href='#'
+                    className='mt-10 px-6 py-4 rounded-3xl bg-yellow-300 hover:bg-yellow-400 cursor-pointer'
+                  >
                     Appointment
                   </a>
                 </div>
@@ -124,6 +139,7 @@ function Home() {
                 laudantium.
               </p>
               <a
+                href='#'
                 className='px-6 py-4 rounded-3xl bg-yellow-300 hover:bg-yellow-400 cursor-pointer'
               >
                 Read More
